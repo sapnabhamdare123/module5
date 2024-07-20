@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="eventTask2.css">
+</head>
+<body>
+    <div class="dark-background text-center">
+        <div>
+            <img src="photos/offLight.png"class="cat-images"id="lightimage">
+        </div>
+
+        <div>
+            <img src="photos/darkCat.png" class="cat-image" id="catimage">
+        </div>
+
+        <div class="center-content pt-6">
+            <div class="switch-board">
+                <h1 class="switch-status" id="switchstatus">Switched on</h1>
+                <button class="off-switch" onclick="switchoff()" id="offswitch">OFF</button>
+                <button class="on-switch" onclick="switchon()" id="onswitch">ON</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="eventTask2.js"></script>
+</body>
+</html>
